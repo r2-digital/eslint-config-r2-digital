@@ -19,21 +19,21 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': [
             'error',
             {
-                argsIgnorePattern: '_',
-                ignoreRestSiblings: true
+                'argsIgnorePattern': '_',
+                'ignoreRestSiblings': true
             }
         ],
         'import/extensions': [
             'error',
             'ignorePackages',
             {
-                ts: 'never'
+                'ts': 'never'
             }
         ],
         'import/prefer-default-export': 'off',
         'import/no-dynamic-require': 'error',
         'prettier/prettier': [
-            'error', {}, { usePrettierrc: true }
+            'error', {}, { 'usePrettierrc': true }
         ],
         'class-methods-use-this': 'off',
         'no-shadow': 'error',
@@ -49,14 +49,34 @@ module.exports = {
         'global-require': 'off',
         'no-underscore-dangle': 'off',
         'default-param-last': 'error',
+        'max-len': [
+            'error',
+            {
+                'code': 80,
+                'ignoreComments': true,
+                'ignoreTrailingComments': true,
+                'ignoreUrls': true,
+                'ignoreStrings': true,
+                'ignoreTemplateLiterals': true,
+                'ignoreRegExpLiterals': true
+            }
+        ],
         'quotes': [
             'error',
             'single',
             {
-                avoidEscape: true,
-                allowTemplateLiterals: true
+                'avoidEscape': true,
+                'allowTemplateLiterals': true
             }
-        ]
+        ],
+        'lines-between-class-members': [
+            'error',
+            'always',
+            {
+                'exceptAfterSingleLine': true
+            }
+        ],
+        'no-unreachable': 'error'
     },
     settings: {
         'import/parsers': {
