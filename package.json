@@ -1,6 +1,6 @@
 {
   "name": "@r2-digital/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESlint configuration used by R2 Digital",
   "main": "index.js",
   "license": "MIT",

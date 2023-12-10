@@ -35,10 +35,15 @@ module.exports = {
         'prettier/prettier': [
             'error', {}, { usePrettierrc: true }
         ],
-        'class-methods-use-this': 'error',
+        'class-methods-use-this': 'off',
         'no-shadow': 'error',
         'func-names': ['error', 'as-needed'],
-        'object-curly-newline': ['error', 'always'],
+        'object-curly-newline': ['error', {
+            'ObjectExpression': 'always',
+            'ObjectPattern': { 'multiline': true },
+            'ImportDeclaration': 'never',
+            'ExportDeclaration': { 'multiline': true }
+        }],
         'implicit-arrow-linebreak': 'off',
         'arrow-body-style': ['error', 'as-needed'],
         'global-require': 'off',
