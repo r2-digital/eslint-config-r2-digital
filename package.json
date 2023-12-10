@@ -1,0 +1,45 @@
+{
+  "name": "@r2-digital/eslint-config",
+  "version": "1.0.0",
+  "description": "ESlint configuration used by R2 Digital",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/r2-digital/eslint-config-r2-digital.git"
+  },
+  "keywords": [
+    "r2-digital",
+    "eslint",
+    "config"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm",
+    "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+}
