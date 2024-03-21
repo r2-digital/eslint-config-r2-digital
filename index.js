@@ -5,7 +5,7 @@ module.exports = {
         es2023: true,
         jest: true
     },
-    ignorePatterns: ['node_modules', 'build', 'dist', 'coverage', '**/jest.*'],
+    ignorePatterns: ['node_modules', 'build', 'dist', 'coverage'],
     extends: ['airbnb-base', 'plugin:@typescript-eslint/recommended', 'plugin:prettier/recommended'],
     parser: '@typescript-eslint/parser',
     parserOptions: {
