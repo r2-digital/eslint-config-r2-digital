@@ -32,16 +32,18 @@ module.exports = {
         ],
         'import/prefer-default-export': 'off',
         'import/no-dynamic-require': 'error',
+        'import/no-cycle': 'off',
         'prettier/prettier': [
             'error', {}, { 'usePrettierrc': true }
         ],
         'class-methods-use-this': 'off',
-        'no-shadow': 'error',
+        'no-shadow': 'off',
+        '@typescript-eslint/no-shadow': ['error'],
         'func-names': ['error', 'as-needed'],
         'object-curly-newline': ['error', {
             'ObjectExpression': 'always',
             'ObjectPattern': { 'multiline': true },
-            'ImportDeclaration': 'never',
+            'ImportDeclaration': { 'multiline': true },
             'ExportDeclaration': { 'multiline': true }
         }],
         'implicit-arrow-linebreak': 'off',

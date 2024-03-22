@@ -1,9 +1,9 @@
 {
   "name": "@r2-digital/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESlint configuration used by R2 Digital",
   "main": "index.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "url": "git+https://github.com/r2-digital/eslint-config-r2-digital.git"
   },
